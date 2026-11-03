@@ -2,7 +2,7 @@
 
 Aplicación web de recetas de cocina construida con Next.js 16 (App Router) y Supabase como backend serverless. Proyecto enfocado en rutas dinámicas, consumo de datos desde Server Components e interactividad con Client Components.
 
-🌐 **Demo en vivo:** _(pendiente: pegar aquí la URL pública de AWS Amplify, por ejemplo `https://main.xxxxxxxx.amplifyapp.com`)_
+🌐 Demo en vivo:https://recetas-app-beta-six.vercel.app/
 
 ## Tecnologías
 
