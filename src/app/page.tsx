@@ -3,6 +3,10 @@ import Image from 'next/image'
 import { supabase } from '@/lib/supabase'
 import { Receta } from '@/lib/types'
 
+// La página se genera en cada visita (no al compilar): si Supabase falla durante el build
+// no se queda guardado el mensaje de error, y las recetas nuevas aparecen sin redesplegar.
+export const dynamic = 'force-dynamic'
+
 export default async function Home() {
   const { data: recetas, error } = await supabase
     .from('recetas')
